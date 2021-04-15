@@ -1,0 +1,15 @@
+body{width: 100%;
+    height: 100vh;
+    background-image: url("./imagens_jogo/corona_king.gif");
+    background-size: cover;
+  }
+  .prologo {
+      color: black;
+      font-size: 40px;
+      text-align: center;
+      line-height: 30px;
+      padding: 20px;
+    }
+    .iniciar {
+      text-align: center;
+    }

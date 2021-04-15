@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./imagens_jogo/virus_back_3.jpg");
+  background-size: cover;
+}
+.titulo {
+  color: whitesmoke;
+  font-size: 80px;
+  text-align: center;
+  font-style: bold;
+  font-weight: bold;
+  border-top: 20px;
+}
+
+.prologo {
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px;
+}
+
+.sub_titulo {
+  color: whitesmoke;
+  font-size: 40px;
+  text-align: center;
+  font-style: bold;
+  font-weight: bold;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 180px;
+  border: 10px;
+  border-color: white;
+}
+
+.avatar li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: white;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 300px;
+  border: 10px;
+  border-color: white;
+  border-radius: 15px;
+}
